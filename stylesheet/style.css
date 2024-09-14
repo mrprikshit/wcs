@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    background: #f2f2f2;
+    border-bottom: 1px solid black;
+}
+.logo
+{
+    font-family: "Oswald", system-ui;
+    font-weight: 900;
+    font-size: 30px;
+}
+.menu ul
+{
+    display: flex;
+    background: #fff;
+    border-radius: 0px 15px;
+    border: 1px solid black;
+}
+.menu ul li
+{
+    list-style: none;
+    margin: 0 10px;
+    position: relative;
+}
+.menu ul li a
+{
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s;
+}
+.menu ul li a:hover
+{
+    color: #626262;
+}
+#menubar
+{
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+/* main section styling */
+main
+{
+    height: 88.9vh;
+}
+.welcome h1
+{
+    font-size: 30px;
+    font-weight: 400;
+}
+.welcome h1 span
+{
+    display: block;
+    font-size: 35px;
+    font-weight: 800;
+}
+.welcome img
+{
+    height: 200px;
+}
+.welcome
+{
+    display: flex;
+    justify-content: space-around;
+    height: 72vh;
+    align-items: center;
+    margin: 0 20px;
+}
+.welcome .btn
+{
+    padding: 2px 20px;
+    background: transparent;
+    border: 1px solid #000;
+    color: #000;
+    border-radius: 30px;
+    transition: 0.3s background,1s color;
+    cursor: pointer;
+}
+.welcome .btn:hover
+{
+    background: #000;
+    color: #fff;
+}
+.welcome .about p
+{
+    max-width: 550px;
+    margin: 20px 0;
+}
+.footer
+{
+    height: 45px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer span a
+{
+    text-decoration: none;
+    color: white;
+}
+.footer span a:hover
+{
+    text-decoration: underline;
+    color: #efefef;
+}
+.sociallinks
+{
+    display: flex;
+}
+.sociallinks li
+{
+    list-style: none;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.credit
+{
+    font-size: 12px;
+    margin-left: 10px;
+}
