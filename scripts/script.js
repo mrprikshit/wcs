@@ -10,3 +10,7 @@ menubar.addEventListener("click", ()=> {
         menu.classList.remove("show");
     }
 })
+// print year in footer
+    const d = new Date();
+    let year = d.getFullYear();
+    document.querySelector(".print_year").innerHTML = year;
