@@ -29,6 +29,12 @@
         display: block;
     }
 }
+@media only screen and (max-width: 570px) {
+    .contact_form
+    {
+        flex-direction: column-reverse;
+    }
+}
 @media only screen and (max-width: 341px) {
     .menu ul
     {
